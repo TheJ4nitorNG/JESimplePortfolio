@@ -206,8 +206,8 @@ a:hover {
 
 .hero-text {
     width: 100%;
-    max-height: 120px; /* Usually the text logotype is wider than it is tall */
-    width: auto;
+    max-width: 720px; /* Exactly 720px as requested */
+    height: auto;
     object-fit: contain;
 }
 
