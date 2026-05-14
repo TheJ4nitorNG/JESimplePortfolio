@@ -192,14 +192,13 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    max-width: 770px;
-    height: 330px;
+    max-width: 100%; /* Let it breathe to fit icon + text */
     margin: 0 auto 2rem auto;
 }
 
 .hero-icon {
-    height: 100%;
-    max-height: 250px;
+    height: auto;
+    max-height: 180px; /* Keep icon proportional */
     width: auto;
     object-fit: contain;
 }
@@ -215,14 +214,13 @@ a:hover {
 @media (max-width: 768px) {
     .hero-logo-container {
         flex-direction: column;
-        height: auto;
         gap: 1rem;
     }
     .hero-icon {
-        max-height: 150px;
+        max-height: 120px;
     }
     .hero-text {
-        max-height: 70px;
+        max-width: 100%;
     }
 }
 
