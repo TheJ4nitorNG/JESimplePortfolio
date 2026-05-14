@@ -186,21 +186,15 @@ a:hover {
     padding: 8rem 2rem;
 }
 
-/* UPDATED HERO LOGO DIMENSIONS */
 .hero-logo {
     width: 770px;
     height: 330px;
     max-width: 100%;
-    object-fit: contain; /* Prevents stretching if scaled down on mobile */
-    margin-bottom: 1.5rem;
+    object-fit: contain; 
+    margin-bottom: 2rem; /* Increased margin since slogan is gone */
 }
 
-.slogan {
-    font-size: 1.4rem;
-    font-style: italic;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-}
+/* Slogan text class removed as text is now in logo image */
 
 .subtitle {
     font-size: 1.2rem;
