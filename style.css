@@ -189,23 +189,24 @@ a:hover {
 /* Split Logo Container */
 .hero-logo-container {
     display: flex;
+    flex-direction: column; /* THIS STACKS THEM VERTICALLY */
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    max-width: 100%; /* Let it breathe to fit icon + text */
+    gap: 1.5rem; /* Space between icon and text */
+    max-width: 100%;
     margin: 0 auto 2rem auto;
 }
 
 .hero-icon {
     height: auto;
-    max-height: 180px; /* Keep icon proportional */
+    max-height: 180px;
     width: auto;
     object-fit: contain;
 }
 
 .hero-text {
     width: 100%;
-    max-width: 720px; /* Exactly 720px as requested */
+    max-width: 720px;
     height: auto;
     object-fit: contain;
 }
@@ -213,7 +214,6 @@ a:hover {
 /* Make it responsive for mobile phones */
 @media (max-width: 768px) {
     .hero-logo-container {
-        flex-direction: column;
         gap: 1rem;
     }
     .hero-icon {
