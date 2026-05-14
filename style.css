@@ -186,10 +186,12 @@ a:hover {
     padding: 8rem 2rem;
 }
 
+/* UPDATED HERO LOGO DIMENSIONS */
 .hero-logo {
+    width: 770px;
+    height: 330px;
     max-width: 100%;
-    height: auto;
-    max-height: 120px; /* Adjust this to size the main logo perfectly */
+    object-fit: contain; /* Prevents stretching if scaled down on mobile */
     margin-bottom: 1.5rem;
 }
 
