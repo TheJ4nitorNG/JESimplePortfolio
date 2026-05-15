@@ -128,7 +128,7 @@ a:hover {
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 110px;
 }
 
 .brand-text {
@@ -138,9 +138,9 @@ a:hover {
 }
 
 .brand-logo {
-    height: 74px;
-    width: 74px;
-    border-radius: 4.5px;
+    height: 72px;
+    width: 72px;
+    border-radius: 3px;
     object-fit: contain;
 }
 
