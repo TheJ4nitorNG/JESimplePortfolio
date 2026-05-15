@@ -199,8 +199,8 @@ a:hover {
 
 .hero-icon {
     height: auto;
-    /* LARGER ICON ON DESKTOP (was 180px) */
-    max-height: 250px;
+    /* LARGER ICON ON DESKTOP */
+    max-height: 750px;
     width: auto;
     object-fit: contain;
 }
@@ -434,6 +434,11 @@ footer {
     cursor: pointer;
     font-size: 1.1rem;
     transition: opacity 0.3s ease;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}ransition: opacity 0.3s ease;
 }
 
 .submit-btn:hover {
